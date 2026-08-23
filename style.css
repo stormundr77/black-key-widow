@@ -99,7 +99,7 @@ p {
 }
 
 .video-card {
-    padding: 10px;
+    padding: 5px;
     border: 1px solid rgba(229, 185, 77, 0.45);
     border-radius: 16px;
     background-color: #063c48;
@@ -163,8 +163,8 @@ p {
     border-radius: 16px;
     background: linear-gradient(
         135deg,
-        #3f2458,
-        #4b286d 
+        #321b3f,
+        #46183f 
     );
     border: 1px solid rgba(229, 185, 77, 0.3);
     transition: transform 0.25s ease, border-color 0.25s ease;
@@ -322,7 +322,11 @@ p {
 .composition-card {
     padding: 30px;
     border-radius: 16px;
-    background: #4b286d;
+    background: linear-gradient(
+        135deg,
+        #321b3f,
+        #46183f 
+    );
     border: 1px solid rgba(229,185,77,0.3);
     overflow: hidden;
     transition: transform 0.25s ease, border-color 0.25s ease;
@@ -363,11 +367,12 @@ p {
             rgba(229, 185, 77, 0.10),
             transparent 35%
         ),
-        linear-gradient(
-        135deg,
-        #241333 0%,
-        #3b1d52 50%,
-        #4b286d 100%
+        
+        radial-gradient(
+            circle at 50% 0%,
+            #3f173b 0%,
+            #3b1d52 65%,
+            #101a3a 100%
    );
 }
 
